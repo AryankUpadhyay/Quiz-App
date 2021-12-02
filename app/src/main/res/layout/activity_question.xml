@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="10dp"
+    android:background="@color/white"
     tools:context=".QuestionActivity">
 <TextView
     android:id="@+id/question_text"
@@ -103,7 +104,7 @@
         android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit"
+        android:text="Go to Next Question"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:layout_marginTop="10dp"
